@@ -1,0 +1,105 @@
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0;
+  /* text-decoration: underline #cf0a0a; */
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  /* text-decoration: underline #cf0a0a; */
+}
+
+.recipe {
+  font-size: 20px;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  filter: brightness(100%) hue-rotate(0deg) saturate(150%);
+}
+
+.definition-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.definition-image {
+  height: 400px;
+  border-radius: 25%;
+  filter: saturate(125%);
+  /* border: 7px solid #cf0a0a; */
+}
+
+.definition-left-item {
+  margin-right: 25px;
+}
+
+.definition-right-item {
+  margin-left: 25px;
+}
+
+/* iands=> Ingredients and Steps */
+
+.ingredients-and-steps-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.iands-left-item {
+  width: 25%;
+  text-align: center;
+  background-color: #dc5f00;
+  border-radius: 25px;
+  padding: 25px;
+  border: 1px solid black;
+  color: white;
+}
+
+.unorder {
+  padding: 0;
+}
+
+.order > li::marker {
+  font-weight: bold;
+}
+
+.unorder li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.order li {
+  padding-bottom: 20px;
+}
+
+.iands-right-item {
+  width: 75%;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.iands-left-item h3 {
+  text-decoration: underline white;
+}
